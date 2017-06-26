@@ -16,7 +16,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+                    <!-- ToDo: Replace with site.baseurl when integrating with original site -->
+                    <a href="http://miketwo.net">Home</a>
                 </li>
                 {% for page in site.pages %}{% if page.nav %}
 				{% if page.url != '/404.html' %}
