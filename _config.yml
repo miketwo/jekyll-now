@@ -1,11 +1,11 @@
 # Site settings
-title: MikeTwo's Blog
+title: Per Scribo Ad Astra
 header-img: img/merlin.jpg
 email: miketwo@gmail.com
 copyright_name: Michael Ricks-Aherne
 description: "Random thoughts. Some of them good."
 baseurl: ""
-url: "http://miketwo.net"
+url: "http://miketwo.net/blog"
 twitter_username: miketwo345
 github_username:  miketwo
 # facebook_username:  ""
