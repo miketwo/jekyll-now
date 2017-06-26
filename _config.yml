@@ -1,14 +1,14 @@
 # Site settings
 title: MikeTwo's Blog
-header-img: img/home-bg.jpg
+header-img: img/merlin.jpg
 email: miketwo@gmail.com
 copyright_name: Michael Ricks-Aherne
-description: "Random thoughts..."
+description: "Random thoughts. Some of them good."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://miketwo.net"
 twitter_username: miketwo345
 github_username:  miketwo
-facebook_username:  ""
+# facebook_username:  ""
 email_username:  miketwo@ygmail.com
 
 # Google Analytics
