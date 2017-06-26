@@ -1,6 +1,8 @@
 ---
 layout: page
-title: About
+title: "About"
+description: "Who is this guy?"
+header-img: "img/starry_background.jpg"
 permalink: /about/
 ---
 
