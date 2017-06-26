@@ -1,5 +1,6 @@
 ---
 layout: page
+nav: yes
 title: "About"
 description: "Who is this guy?"
 header-img: "img/starry_background.jpg"
