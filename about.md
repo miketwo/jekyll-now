@@ -7,11 +7,7 @@ header-img: "img/starry_background.jpg"
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+You can find out all about me at [my original site](http://miketwo.net).
 
 ### Contact me
 
