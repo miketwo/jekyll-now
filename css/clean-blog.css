@@ -61,8 +61,8 @@ hr.small {
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -85,6 +85,17 @@ hr.small {
   .navbar-custom .nav li a:focus {
     color: rgba(255, 255, 255, 0.8);
   }
+
+  /* Center the navbar */
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
 }
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
