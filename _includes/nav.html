@@ -14,14 +14,21 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
+                <!--  ToDo: Remove these hardcoded links by porting old site to here-->
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+                    <a href="{{ site.old_site }}/">Home</a>
                 </li>
                 <li>
-                    <a href="http://miketwo.net">About</a>
+                    <a href="{{ site.old_site }}#about">About</a>
                 </li>
                 <li>
-                    <a href="http://miketwo.net/resume">Resume</a>
+                    <a href="{{ site.baseurl }}/">Blog</a>
+                </li>
+                <li>
+                    <a href="{{ site.old_site }}/resume">Resume</a>
+                </li>
+                <li>
+                    <a href="{{ site.old_site }}#contact">Contact</a>
                 </li>
                 {% for page in site.pages %}{% if page.nav %}
 				{% if page.url != '/404.html' %}
