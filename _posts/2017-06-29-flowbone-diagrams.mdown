@@ -1,0 +1,55 @@
+---
+layout:     post
+title:      "FlowBone Diagrams"
+subtitle:   "Root Cause Analysis made easy"
+date:       2017-06-29 13:38:00
+author:     "Michael Ricks-Aherne"
+header-img: "img/post-bg-07.jpg"
+---
+
+<p>If you've ever spent any time around safety engineers, you'll know that they love their analyses. A good engineer can rattle off a dozen acronyms for the various ways of disecting information -- a PHA, FMEA, CCFA, PRA, etc... There are literally books with tables in them listing the plethora of options available.</p>
+
+<a href="/img/2017-06-29-flowbone-early.png"><img src="/img/2017-06-29-types-of-analyses.png"/></a><span class="caption">You thought I was kidding.</span>
+
+<p>But the problem I've always had is that these analyses are either:
+<ul>
+    <li>too process heavy,</li>
+    <li>not visual enough, or</li>
+    <li>require special tools</li>
+</ul></p>
+
+<p>I'm a visual thinker and I don't like remembering a million steps or using specialized tools. I need something simple and effective. <strong>Enter the FlowBone Diagram</strong>.</p>
+
+<h2 class="section-heading">What's a FlowBone?</h2>
+
+<p>A FlowBone is a flowchart you draw to help you figure out the root cause of a problem. It's a a cross between <a href="https://en.wikipedia.org/wiki/5_Whys">"5 Why's"</a> and a classic <a href="https://en.wikipedia.org/wiki/Ishikawa_diagram">Fishbone Diagram</a>, but it's my favorite because it's easy to follow (like a fishbone), has space for including notes (like 5Y's), includes color as an additional dimension of information, and doesn't require anything special to create.</p>
+
+<a href="/img/2017-06-29-full-blown-flowbone.png"><img src="/img/2017-06-29-full-blown-flowbone.png"/></a><span class="caption">A full-blown FlowBone</span>
+
+<h2 class="section-heading">How does it work?</h2>
+
+<p>To make a FlowBone, all you do is make a flowchart where everything is connected by "why". Start with the observed problem and work your way down. Add colors as you see fit. </p>
+
+<p>There's no special software required -- anything that can make a flowchart can be used to make this. In my work I've used the Confluence plugin <a href="https://www.gliffy.com/products/confluence-plugin/">Gliffy</a>, but really anything will do.</p>
+
+<h2 class="section-heading">Tips for a smooth FlowBone</h2>
+
+<p>When you first start a root cause analysis, there's going to be way more questions than answers. So I suggest starting with 2 colors -- white and grey. White boxes are things you're certain of, Grey are things under investigation. </p>
+
+<a href="/img/2017-06-29-flowbone-early.png"><img src="/img/2017-06-29-flowbone-early.png"/></a><span class="caption">Lots of work to do.</span>
+
+<p>As you make progress in the investigation, certain paths may become ruled out. Keep them on the graph, but mark them as "cleared" and put notes explaining why. </p>
+
+<a href="/img/2017-06-29-flowbone-medium.png"><img src="/img/2017-06-29-flowbone-medium.png"/></a><span class="caption">The X's are optional, but after hours investigating a dead-end you'll want the satisfaction of placing them.</span>
+
+<p>Eventually you may reach a point where several items may point to a possible common cause. <strong>Focus your efforts here</strong>. This is the biggest advantage that a visual layout can give -- directing the investigation toward meaningful common-cause paths. </p>
+
+<a href="/img/2017-06-29-flowbone-late.png"><img src="/img/2017-06-29-flowbone-late.png"/></a><span class="caption">Zeroing in.</span>
+
+<p>When you've finally narrowed down the root cause, a little visual sugar can make it a great report. You can link boxes to work tickets, highlight the fault path(s), add labels, etc... Do whatever makes sense. The world is your oyster. </p>
+
+<a href="/img/2017-06-29-full-blown-flowbone.png"><img src="/img/2017-06-29-full-blown-flowbone.png"/></a><span class="caption">This oyster cost us several days of downtime.</span>
+
+<p>And that's the FlowBone.</p>
+
+<p><em>If you found this article useful, please <a href="mailto:miketwo@gmail.com">drop me a line</a> and let me know.</em></p>
