@@ -28,10 +28,6 @@ grunt watch
 1. Push to master.
 
 
-## To Do
-
- - Clean git history (we don't need the entire dev line of the clean blog -- that can be squashed and binary images removed)
-
 ## Support
 
 Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
