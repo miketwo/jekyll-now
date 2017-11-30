@@ -5,8 +5,11 @@ Modified from the official Jekyll version of the Clean Blog theme by [Start Boot
 ## Development
 
 ### First time
+On a Mac: `brew install ruby cmake grunt`
+
+Then:
 ```
-gem install jekyll bundler
+gem install jekyll bundler github-pages
 npm install
 ```
 
@@ -18,10 +21,15 @@ jekyll serve --watch
 grunt watch
 ```
 
+### Adding a post
+
+1. Copy an existing post from `_posts` and rename accordingly.
+1. Edit the content of the post until happy.
+1. Push to master.
+
+
 ## To Do
 
- - Port original site over? (Or maybe just link)
- - Lots of font/color scheme adjustments
  - Clean git history (we don't need the entire dev line of the clean blog -- that can be squashed and binary images removed)
 
 ## Support
